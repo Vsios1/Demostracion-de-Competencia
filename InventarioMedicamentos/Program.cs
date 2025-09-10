@@ -19,6 +19,7 @@ class Program
             Console.WriteLine("4. Verificar vencimientos próximos");
             Console.WriteLine("5. Eliminar medicamentos vencidos");
             Console.WriteLine("6. Salir");
+            Console.WriteLine("7. Mostrar stock ordenado por vencimiento (Counting Sort)");
             Console.Write("\nSeleccione una opción: ");
 
             string option = Console.ReadLine();
@@ -43,6 +44,9 @@ class Program
                 case "6":
                     exit = true;
                     break;
+                case "7":
+                    pharmacy.ShowStockSortedByExpiration(); break;
+                    
                 default:
                     Console.WriteLine("\nOpción no válida. Intente de nuevo.");
                     break;

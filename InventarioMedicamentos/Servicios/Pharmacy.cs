@@ -104,5 +104,53 @@ namespace InventarioMedicamentos.Servicios
 
             Console.WriteLine($"\nSe eliminaron {removed} medicamento(s) vencido(s).");
         }
+
+        // 🚀 Nuevo método: Counting Sort para ordenar por vencimiento
+        public void ShowStockSortedByExpiration()
+        {
+            if (!medicineStock.Any())
+            {
+                Console.WriteLine("\nEl stock de medicamentos está vacío.");
+                return;
+            }
+
+            // Convertimos la cola en lista para poder ordenarla
+            var medicines = medicineStock.ToList();
+
+            // Creamos un arreglo de claves (días hasta el vencimiento)
+            int[] keys = medicines.Select(m => (m.ExpirationDate - DateTime.Today).Days).ToArray();
+
+            // ----------------------------
+            // APLICACIÓN DE COUNTING SORT
+            // ----------------------------
+
+            int min = keys.Min();
+            int max = keys.Max();
+            int range = max - min + 1;
+
+            int[] count = new int[range];
+            Medicine[] output = new Medicine[medicines.Count];
+
+            // Paso 1: Conteo
+            for (int i = 0; i < keys.Length; i++)
+                count[keys[i] - min]++;
+
+            // Paso 2: Acumulado
+            for (int i = 1; i < count.Length; i++)
+                count[i] += count[i - 1];
+
+            // Paso 3: Construcción del resultado (estable)
+            for (int i = keys.Length - 1; i >= 0; i--)
+            {
+                output[count[keys[i] - min] - 1] = medicines[i];
+                count[keys[i] - min]--;
+            }
+
+            // Mostrar resultados
+            Console.WriteLine("\n--- Stock Ordenado por Fecha de Vencimiento (Counting Sort) ---");
+            foreach (var med in output)
+                Console.WriteLine(med);
+            Console.WriteLine("---------------------------------------------------------------");
+        }
     }
 }

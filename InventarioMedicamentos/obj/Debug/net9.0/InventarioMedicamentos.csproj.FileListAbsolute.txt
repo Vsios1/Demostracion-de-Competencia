@@ -1,0 +1,15 @@
+C:\Users\Edwin\Demostracion-de-Competencia\InventarioMedicamentos\bin\Debug\net9.0\InventarioMedicamentos.exe
+C:\Users\Edwin\Demostracion-de-Competencia\InventarioMedicamentos\bin\Debug\net9.0\InventarioMedicamentos.deps.json
+C:\Users\Edwin\Demostracion-de-Competencia\InventarioMedicamentos\bin\Debug\net9.0\InventarioMedicamentos.runtimeconfig.json
+C:\Users\Edwin\Demostracion-de-Competencia\InventarioMedicamentos\bin\Debug\net9.0\InventarioMedicamentos.dll
+C:\Users\Edwin\Demostracion-de-Competencia\InventarioMedicamentos\bin\Debug\net9.0\InventarioMedicamentos.pdb
+C:\Users\Edwin\Demostracion-de-Competencia\InventarioMedicamentos\obj\Debug\net9.0\InventarioMedicamentos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Edwin\Demostracion-de-Competencia\InventarioMedicamentos\obj\Debug\net9.0\InventarioMedicamentos.AssemblyInfoInputs.cache
+C:\Users\Edwin\Demostracion-de-Competencia\InventarioMedicamentos\obj\Debug\net9.0\InventarioMedicamentos.AssemblyInfo.cs
+C:\Users\Edwin\Demostracion-de-Competencia\InventarioMedicamentos\obj\Debug\net9.0\InventarioMedicamentos.csproj.CoreCompileInputs.cache
+C:\Users\Edwin\Demostracion-de-Competencia\InventarioMedicamentos\obj\Debug\net9.0\InventarioMedicamentos.sourcelink.json
+C:\Users\Edwin\Demostracion-de-Competencia\InventarioMedicamentos\obj\Debug\net9.0\InventarioMedicamentos.dll
+C:\Users\Edwin\Demostracion-de-Competencia\InventarioMedicamentos\obj\Debug\net9.0\refint\InventarioMedicamentos.dll
+C:\Users\Edwin\Demostracion-de-Competencia\InventarioMedicamentos\obj\Debug\net9.0\InventarioMedicamentos.pdb
+C:\Users\Edwin\Demostracion-de-Competencia\InventarioMedicamentos\obj\Debug\net9.0\InventarioMedicamentos.genruntimeconfig.cache
+C:\Users\Edwin\Demostracion-de-Competencia\InventarioMedicamentos\obj\Debug\net9.0\ref\InventarioMedicamentos.dll
