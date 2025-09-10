@@ -1,25 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\HP\\Programando\\Ucatec\\Demostración_de_Competencia\\Gestion_Inventario\\Clase_Program\\Clase_Program.csproj": {}
+    "C:\\Users\\Edwin\\Demostracion-de-Competencia\\Gestion_Inventario\\Clase_Program\\Clase_Program.csproj": {}
   },
   "projects": {
-    "C:\\Users\\HP\\Programando\\Ucatec\\Demostración_de_Competencia\\Gestion_Inventario\\Clase_Program\\Clase_Program.csproj": {
+    "C:\\Users\\Edwin\\Demostracion-de-Competencia\\Gestion_Inventario\\Clase_Program\\Clase_Program.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HP\\Programando\\Ucatec\\Demostración_de_Competencia\\Gestion_Inventario\\Clase_Program\\Clase_Program.csproj",
+        "projectUniqueName": "C:\\Users\\Edwin\\Demostracion-de-Competencia\\Gestion_Inventario\\Clase_Program\\Clase_Program.csproj",
         "projectName": "Clase_Program",
-        "projectPath": "C:\\Users\\HP\\Programando\\Ucatec\\Demostración_de_Competencia\\Gestion_Inventario\\Clase_Program\\Clase_Program.csproj",
-        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HP\\Programando\\Ucatec\\Demostración_de_Competencia\\Gestion_Inventario\\Clase_Program\\obj\\",
+        "projectPath": "C:\\Users\\Edwin\\Demostracion-de-Competencia\\Gestion_Inventario\\Clase_Program\\Clase_Program.csproj",
+        "packagesPath": "C:\\Users\\Edwin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Edwin\\Demostracion-de-Competencia\\Gestion_Inventario\\Clase_Program\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Edwin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
