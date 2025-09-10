@@ -1,5 +1,4 @@
-``` Mermaid
-
+```Mermaid
 flowchart TD
     A[Inicio] --> B[Mostrar Menú]
     B --> C[Leer Opción]
