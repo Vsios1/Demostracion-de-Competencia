@@ -16,5 +16,4 @@ flowchart TD
     G --> B
     H --> B
     I --> B
-    J --> K[Fin]
-```
+    J --> K[Fin]```
