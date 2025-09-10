@@ -168,5 +168,45 @@ InventarioMedicamentos
 ```bash
 dotnet run
 
+```
+# Sistema de Gestión de Medicamentos
+
+Este proyecto es un sistema de gestión de inventarios de medicamentos desarrollado en **C#**, utilizando **orientación a objetos**.  
+Incluye registro, entrega, visualización de stock, verificación de vencimientos y eliminación de medicamentos caducados.  
+
+A continuación se presentan los diagramas que representan la estructura y el comportamiento del sistema.
+
+---
+
+## Diagrama de Clases UML
+
+```mermaid
+classDiagram
+    class Program {
+        +Main() void
+        +Register(pharmacy: Pharmacy) void
+        +CheckExpirations(pharmacy: Pharmacy) void
+    }
+
+    class Medicine {
+        +string Name
+        +string Lot
+        +DateTime ExpirationDate
+        +Medicine(name: string, lot: string, expirationDate: DateTime)
+        +ToString() string
+    }
+
+    class Pharmacy {
+        -Queue~Medicine~ medicineStock
+        +RegisterMedicine(name: string, lot: string, expirationDate: DateTime) void
+        +DeliverMedicine() void
+        +ShowStock() void
+        +CheckUpcomingExpirations(days: int) void
+        +RemoveExpiredMedicines() void
+    }
+
+    Program --> Pharmacy : usa
+    Pharmacy --> Medicine : contiene
+
 
 
