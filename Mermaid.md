@@ -17,7 +17,4 @@ flowchart TD
     H --> B
     I --> B
     J --> K[Fin]
-<<<<<<< HEAD
-=======
-```
->>>>>>> ca67729090ec0af03618dc75574e30e2fae6f4ba
+    ```
