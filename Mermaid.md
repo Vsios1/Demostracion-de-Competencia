@@ -1,4 +1,4 @@
-```Mermaid
+```mermaid
 flowchart TD
     A[Inicio] --> B[Mostrar Menú]
     B --> C[Leer Opción]
@@ -16,4 +16,5 @@ flowchart TD
     G --> B
     H --> B
     I --> B
-    J --> K[Fin]```
+    J --> K[Fin]
+```
