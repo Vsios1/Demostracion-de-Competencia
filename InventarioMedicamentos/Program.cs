@@ -12,7 +12,7 @@ class Program
         while (!exit)
         {
             Console.Clear();
-            Console.WriteLine("--- Sistema de Gestión de Medicamentos ---");
+            Console.WriteLine("SISTEMA DE GESTIONAMIENTO DE MEDICAMENTOS");
             Console.WriteLine("1. Registrar medicamento");
             Console.WriteLine("2. Entregar medicamento");
             Console.WriteLine("3. Mostrar stock disponible");
@@ -70,7 +70,7 @@ class Program
         Console.Write("Lote: ");
         string lot = Console.ReadLine();
 
-        Console.Write("Fecha de vencimiento (dd/MM/yyyy): ");
+        Console.Write("Fecha de vencimiento (Dia/Mes/Año): ");
         DateTime expirationDate;
 
         while (!DateTime.TryParseExact(Console.ReadLine(), "dd/MM/yyyy", null, System.Globalization.DateTimeStyles.None, out expirationDate) 
