@@ -1,6 +1,11 @@
 PanelEstadisticasConGraficas.class
-EstiloDarkConsole.class
+MetricasSimulacion$EventoSimulacion.class
+SimuladorCLI$Proc.class
+SimuladorCLI.class
 SimuladorPrincipal.class
-SoundManager.class
 PanelEstadisticasConGraficas$1.class
 SimuladorPrincipal$Proc.class
+EstiloDarkConsole.class
+SoundManager.class
+MetricasSimulacion$EstadisticasProceso.class
+MetricasSimulacion.class
